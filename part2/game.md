@@ -35,13 +35,13 @@ $$ new\_height = ori\_height + (32 - ori\_height\%32) $$
 ![](/assets/adveast-post-process.jpeg)
 
 **说明**：
-1.由预测矩阵根据配置阈值得出激活像素集合
+1.由预测矩阵根据配置阈值得出激活像素集合。
 
-2.左右邻接像素集合生成region list集合
+2.左右邻接像素集合生成region list集合。
 
-3.上下邻接region list组成region group（文本框激活区域）集合
+3.上下邻接region list组成region group（文本框激活区域）集合。
 
-4.遍历每个region group，生成其头和尾边界像素集合，
+4.遍历每个region group，生成其头和尾边界像素集合，。
 
 5.根据头和尾边界像素预测的到顶点Delta值与该边界像素坐标值计算顶点坐标，每个顶点的所有预测值的加权平均值作为最后的预测坐标值，并输出score。
 
