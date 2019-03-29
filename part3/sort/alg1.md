@@ -7,7 +7,7 @@
 
 ![](/assets/mergesort.gif)
 
-
+ 
 ##题解： 
 
 
