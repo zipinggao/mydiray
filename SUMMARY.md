@@ -9,5 +9,7 @@
     * [两数相加](part3/link/alg1.md)
   * [字符串](part3/README.md) 
     * [最长字串](part3/link/alg2.md)  
+  * [字符串](part3/README.md)
+  * [最长字串](part3/link/alg2.md)  
 
 
