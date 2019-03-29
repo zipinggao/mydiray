@@ -10,6 +10,6 @@
   * [字符串](part3/README.md) 
     * [最长字串](part3/string/alg1.md)  
   * [排序](part3/README.md)
-    * [最长字串](part3/sort/alg1.md)  
+    * [归并排序](part3/sort/alg1.md)  
 
 
