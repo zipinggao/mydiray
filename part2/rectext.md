@@ -54,7 +54,9 @@
 
 **论文实验**
 Results on ICDAR 2015 Challenge Scene Text Localization task
+
 ![](/assets/lab1.png)
 
 Results on MSRA-TD500
+
 ![](/assets/lab2.png)
