@@ -8,10 +8,12 @@
 
 ####端到端方案
 ![端到端](/assets/recmoth1.png)
+
  经典方法：Deep TextSpotter、Mask TextSpotter 、FOTS Rotation-Sensitive Regression 和 STN-OCR等。
 
  ####先检测再识别
 ![检测+识别](/assets/recmoth2.png)
+
 检测方案： AdvancedEAST 、CTPN、FTSN、DMPNet、EAST、SegLink、PixelLink、Textboxes和WordSup等。
 
 识别方案：CRNN 、OCR-Attention、RARE等。
@@ -21,17 +23,16 @@
 
 
 **网络结构**:![](/assets/east.png)
+
 **优点**： 
 
 1、由全卷积网络和NMS两阶段组成的场景文本检测方法。
-
 2、可基于单字和句子的检测，检测形状可以为旋转框（RBOX）和四边形(QUAD)。
 
 **网络输出**： 
+
 1、Score map ：1位 ，是否在文本框； 
-
 2、RBOX： 5位，其中4位表示文本区域内局部像素点到RBOX四条边的距离，1位表示旋转角度𝜃；
-
 3、QUAD: 8位，表示文本区域内局部像素点到四边形4个顶点的距离。
 
 **符号表示**：
