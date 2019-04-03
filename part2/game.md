@@ -65,6 +65,10 @@ $$ new\_height = ori\_height + (32 - ori\_height\%32) $$
 
 ![（1）CNN+RNN+CTC(CRNN+CTC) （2）CNN+Seq2Seq +Attention](/assets/crnn_attention.jpg)
 
+**CRNN网络理解**
+
+![CRNN流程](/assets/crnn_earn.png)
+
 
 
 
