@@ -73,6 +73,15 @@ $$ new\_height = ori\_height + (32 - ori\_height\%32) $$
 
 ![CRNN Loss](/assets/CRNN_loss2.png)
 
+**汉字书法多场景识别 **
+
+![](/assets/chinese_pic1.png)
+
+![](/assets/chinese_eval.png)
+
+![](/assets/chinese_res.png)
+
+
 
 
 
