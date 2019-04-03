@@ -69,6 +69,12 @@ $$ new\_height = ori\_height + (32 - ori\_height\%32) $$
 
 ![CRNN流程](/assets/crnn_earn.png)
 
+![CRNN Loss](/assets/crnn_loss.png)
+
+![CRNN Loss](/assets/CRNN_loss2.png)
+
+
+
 
 
 
