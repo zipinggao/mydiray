@@ -6,20 +6,18 @@
 ![ 核对快递单](/assets/1.png)  ![身份证识别](/assets/idcord2.png) 
 ![执照识别](/assets/xxxx3.png) 
 
-
 ###相关方法
 ![检测方法](/assets/recmoth.png)
 
-
 ####端到端方案
 ![端到端](/assets/recmoth1.png)
-
  经典方法：Deep TextSpotter、Mask TextSpotter 、FOTS Rotation-Sensitive Regression 和 STN-OCR等。
 
  ####先检测再识别
-
-
 ![检测+识别](/assets/recmoth2.png)
 检测方案： AdvancedEAST 、CTPN、FTSN、DMPNet、EAST、SegLink、PixelLink、Textboxes和WordSup等。
 
 识别方案：CRNN 、OCR-Attention、RARE等。
+
+###论文理解
+**论文题目** :
