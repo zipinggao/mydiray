@@ -3,9 +3,6 @@
 ###背景及意义
 目前，OCR应用（如手写数字识别、邮政编码识别、汽车牌号识别、汉字识别、条形码识别等），以及生物特征识别（如人脸识别、指纹识别、虹膜识别等）在人类日常生活中广泛应用。
 
-![ 核对快递单](/assets/1.png)  ![身份证识别](/assets/idcord2.png) 
-![执照识别](/assets/xxxx3.png) 
-
 ###相关方法
 ![检测方法](/assets/recmoth.png)
 
@@ -47,3 +44,10 @@
 ![](/assets/loss1.png)
 ![](/assets/loss2.png)
 ![](/assets/loss3.png)
+
+**论文实验**
+Results on ICDAR 2015 Challenge Scene Text Localization task
+![](/assets/lab1.png)
+
+Results on MSRA-TD500
+![](/assets/lab2.png)
