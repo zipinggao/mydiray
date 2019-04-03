@@ -59,5 +59,14 @@ $$ new\_height = ori\_height + (32 - ori\_height\%32) $$
 
 
 ##文本识别
+目前文本识别分为两种主流方案：  
+（1）CNN+RNN+CTC(CRNN+CTC)           
+（2）CNN+Seq2Seq +Attention    
+
+![（1）CNN+RNN+CTC(CRNN+CTC) （2）CNN+Seq2Seq +Attention](/assets/crnn_attention.jpg)
+
+
+
+
 
 
