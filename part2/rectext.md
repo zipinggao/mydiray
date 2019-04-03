@@ -41,4 +41,9 @@
 ![](/assets/eastres.png)
 
 优化：文本区域默认为四边形，采用缩小版的四边形作为实际文本区域。
+![文本区域缩减](/assets/scale.png)
 
+**损失函数**
+![](/assets/loss1.png)
+![](/assets/loss2.png)
+![](/assets/loss3.png)
