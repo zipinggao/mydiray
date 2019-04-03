@@ -15,7 +15,6 @@
 ![检测+识别](/assets/recmoth2.png)
 
 检测方案： AdvancedEAST 、CTPN、FTSN、DMPNet、EAST、SegLink、PixelLink、Textboxes和WordSup等。
-
 识别方案：CRNN 、OCR-Attention、RARE等。
 
 ###论文理解
