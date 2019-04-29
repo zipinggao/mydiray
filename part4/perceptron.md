@@ -84,3 +84,23 @@ $$b = b + \eta{\frac{\partial {y_i(wx_i + b)}}{\partial b}} = b + \eta y_i$$
 ![](/assets/感知机例子2.png)
 ![](/assets/感知机例子3.png)
 
+###感知机对偶形式
+
+有$$w,b的跟新公式$$：
+
+$$w =  = w + \eta y_i x_i$$
+
+$$b =b + \eta y_i$$
+
+
+当$$w_0 =0 ,b_0 = 0$$时,经过$$n$$次修改后，令$$\alpha =n \eta $$：
+
+$$w =\sum_{i = 0}^n \eta y_i x_i = \sum_{i = 0}^n \alpha_{i} y_i x_i$$,
+
+$$b =\sum_{i = 0}^n \eta y_i  = \sum_{i = 0}^n \alpha_{i} y_i$$,
+
+###原始形式与对偶形式的选择
+
+1.在向量维数（特征数）过高时，计算内积非常耗时，应选择对偶形式算法加速。
+
+2.在向量个数（样本数）过多时，每次计算累计和就没有必要，应选择原始算法。
