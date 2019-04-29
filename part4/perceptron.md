@@ -74,6 +74,7 @@ $$d = \frac{|w \cdot x_i + b|}{||w||}$$
 ![](/assets/感知机_学习算法.png)
 
 $$w = w + \eta{\frac{\partial {y_i(wx_i + b)}}{\partial w}} = w + \eta y_i x_i$$
+
 $$b = b + \eta{\frac{\partial {y_i(wx_i + b)}}{\partial b}} = b + \eta y_i$$
 
 感知机使用梯度下降方法求得w和b的最优解。
