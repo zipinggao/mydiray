@@ -82,7 +82,7 @@ $$b = b + \eta{\frac{\partial {y_i(wx_i + b)}}{\partial b}} = b + \eta y_i$$
 
 ![](/assets/感知机例子1.png)
 ![](/assets/感知机例子2.png)
-![](/assets/感知机例子3.png)
+![](/assets/感知机例子3.png) 
 
 ###感知机对偶形式
 
