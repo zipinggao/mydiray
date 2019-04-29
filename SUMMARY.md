@@ -12,5 +12,7 @@
     * [最长字串](part3/string/alg1.md)  
   * [排序](part3/sort/README.md)
     * [归并排序](part3/sort/alg1.md)  
+* [李航统计学](part4/README.md)
+
 
 
