@@ -13,6 +13,7 @@
   * [排序](part3/sort/README.md)
     * [归并排序](part3/sort/alg1.md)  
 * [李航统计学](part4/README.md)
-
+    * [感知机](part4/perceptron.md)  
+    
 
 
