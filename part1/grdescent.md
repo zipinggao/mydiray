@@ -57,7 +57,7 @@ $$b_{new} = b - \alpha \triangledown b $$
 ###mini-batch gradient descent 
 小批量梯度下降法（mini-batch gradient descent）主要思想就是每次只拿总训练集的一小部分来训练，比如一共有5000个样本，每次拿100个样本来计算loss，更新参数，50次后完成整个样本集的训练，为一轮（epoch）。由于每次更新用了多个样本来计算loss，就使得loss的计算和参数的更新更加具有代表性，不像原始SGD很容易被某一个样本给带偏。
 
-$$loss_batch = \frac{1}{2k} \sum_{i=1}^{k}(y_{p,i} - y_i)^2 $$ 
+$$loss_{batch} = \frac{1}{2k} \sum_{i=1}^{k}(y_{p,i} - y_i)^2 $$ 
 
 $$\frac{\partial loss_{batch}}{\partial a} = \frac{1}{k} \sum_{i =1}^{k}(ax_i +b -y_i)x_i$$
 
@@ -69,6 +69,17 @@ $$a_{new} = a - \alpha \triangledown a $$
 $$b_{new} = b - \alpha \triangledown b $$
 
 人们一般说SGD都指的是 mini-batch gradient descent,基本所有的大规模深度学习训练都是分为小batch进行训练的。
+
+###批梯度下降法(Batch Gradient Descent)
+批梯度下降法(Batch Gradient Descent)针对的是整个数据集，通过对所有的样本的计算来求解梯度的方向。 
+
+$$loss_{batch} = \sum_{i=1}^{k}(y_{p,i} - y_i)^2 $$ 
+
+$$a_{i+1} = a_i - \alpha \sum_{i =1}^{k}(ax_i +b -y_i)x_i $$
+
+$$b_{i+1} = b_i - \alpha \sum_{i =1}^{k}(ax_i +b -y_i) $$
+
+
 
 
 
