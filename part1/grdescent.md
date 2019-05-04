@@ -8,5 +8,5 @@ $$ \theta_{i+1} = \theta_{i} - \alpha \frac{\partial f}{\partial \theta}$$
 
 $$y_{p,i} = ax_i + b$$
 
-$$loss = \frac{1}{2m} \sum_{i=1}^{m}$$ 
+$$loss = \frac{1}{2m} \sum_{i=1}^{m}(y_{p,i} - y_i)^2 $$ 
 
