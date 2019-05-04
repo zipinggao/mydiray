@@ -78,7 +78,7 @@ $$loss_{batch} = \sum_{i=1}^{k}(y_{p,i} - y_i)^2 $$
 $$a_{i+1} = a_i - \alpha \sum_{i =1}^{k}(ax_i +b -y_i)x_i $$
 
 $$b_{i+1} = b_i - \alpha \sum_{i =1}^{k}(ax_i +b -y_i) $$
-
+ 
 
 
 
