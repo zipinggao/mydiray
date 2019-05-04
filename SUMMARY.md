@@ -2,7 +2,8 @@
 
 * [介绍](README.md)
 * [深度学习](part1/README.md)
-  * [梯度下降](part1/grdescent.md)
+  * [梯度下降一](part1/grdescent.md)
+  * [梯度下降二](part1/gradscent.md)
 * [竞赛](part2/README.md)
   * [文本检测网络east](part2/rectext.md)
   * [华为汉字书法多场景识别](part2/game.md)
