@@ -2,7 +2,7 @@
 
 公式：
 
-$$ \theta_{i+1} = \theta_{i} - \alpha \frac{\partial f}{\partial \theta}$$
+$$ \theta_{i+1} = \theta_{i} - \alpha \frac{\partial f}{\partial \theta}$$ 
 
 对于：
 
