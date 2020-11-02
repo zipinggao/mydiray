@@ -18,6 +18,6 @@
   * [感知机](part4/perceptron.md)
   * [K邻近](part4/knn.md)
   * [朴素贝叶斯](part4/bayes.md)
-* [git](git.md)
-  * [开始](part5/perceptron.md)
+* [git](part5/README.md)
+  * [git入门](part5/gitEditor.md)
 
